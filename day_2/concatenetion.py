@@ -6,4 +6,4 @@ print("your name has "+new_num_char+" characters")
 
 #a funcao float(valor) converte o uma string ou um interger ou etc em valor float
 #a funcao type(valor) devolve a classe que o valor é, como float, interger e ou string
-print(123[0])
+#a funcao int(valor), tranforma o valor em um interger

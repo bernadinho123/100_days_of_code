@@ -14,6 +14,8 @@ if height >=120:
     elif age <= 18:
         bill=7
         print("Please pay $7.")
+    elif age >= 45 and age <= 55:
+        print("Everything is gonna be ok.Have a free ride on us!")
     else:
         bill=12
         print("Please pay $12.")
@@ -26,3 +28,4 @@ else:
 
 
 # ficar ligado ao usar os sinais logicos maior ou menor, sempre tentar colar entre os valores
+# logical operators or, and, not

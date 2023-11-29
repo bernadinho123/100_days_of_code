@@ -24,8 +24,8 @@ print(''' / \-----     ---------  -----------     -------------- ------    ----\
  \_/__________________________________________________________________/")
       ''')
 print("Welcome to the treasure island\n your mission is to find the treasure with your map")
-answer1 =input("You see a volcano, what do you do? Type climb or run")
+answer1 =input("You see a volcano, what do you do? Type climb or run ")
 if answer1 == "climb":
-    print("Lave killed u")
+    print("Lava killed u, game over")
 else:
     print("You found the treasure")
