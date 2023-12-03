@@ -13,7 +13,7 @@ for i in range(0,len(chosen_word)):
 print(chosen_word)
     
 print(display)
-print(str(display))
+
 
 # for letter in chosen_word:
 #     if letter == guess:
