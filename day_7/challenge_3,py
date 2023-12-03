@@ -1,0 +1,21 @@
+import random
+world_list=["ardvark","baboon","camel"]
+size=len(world_list)
+chosen_word = world_list[random.randint(0,size-1)]
+#chosen_word = random.choice(world_list) pode ser feito assim tambem
+display = []
+for i in range(0,len(chosen_word)):
+    display.append("_")
+
+word=0
+while word < len(chosen_word):
+    guess = input("Guess a letter: ").lower()
+    for i in range(0,len(chosen_word)):
+        if chosen_word[i] == guess:
+            display[i] = guess
+            word +=1
+            print(display)
+            
+
+print("U win")
+
