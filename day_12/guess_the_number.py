@@ -1,10 +1,10 @@
 import random
-
+from art import logo
 
 
 flag = True
 while flag == True:
-
+    print(logo)
     print("Welcome to the Number Guessing Game!")
     level = input("Choose a difficulty. Type 'easy' or 'hard': ")
     attempts = 0 
