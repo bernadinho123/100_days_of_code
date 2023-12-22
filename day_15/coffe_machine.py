@@ -89,7 +89,7 @@ while flag:
             stock['money'] += cappuccino_cost
             change = money_inserted - cappuccino_cost
             print(f"Here is ${round(change, 2)} in change.")
-            print("Here is your latte ☕")
+            print("Here is your cappuccino ☕")
             stock['water'] -= MENU['cappuccino']['ingredients']['water']
             stock['coffee'] -= MENU['cappuccino']['ingredients']['coffee']
             stock['milk'] -= MENU['cappuccino']['ingredients']['milk']
@@ -98,6 +98,7 @@ while flag:
               f"money : ${stock['money']}")
 
     elif product == 'off':
+        print("turning off...")
         flag = False
     else:
         print("Error, type correctly.!")
