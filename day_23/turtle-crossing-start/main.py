@@ -24,7 +24,7 @@ while game_is_on:
             game_is_on = False
     if timmy.ycor() > 280:
         scoreboard.point_scored()
-        timmy.goto(0, -280)
+        timmy.goto(0, -283)
         sleep = sleep*0.6
 
 screen.exitonclick()
