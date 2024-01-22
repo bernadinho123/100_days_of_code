@@ -5,6 +5,7 @@ import time
 
 MY_EMAIL = "bemascarenhas6@gmail.com"
 MY_PASSWORD = "mthvtrnksnqqlgjl"#recomendo criar outra senha de app, ja esta usando essa no aniversario
+
 MY_LAT = -22.906847 # Your latitude
 MY_LONG = -43.172897 # Your longitude
 
